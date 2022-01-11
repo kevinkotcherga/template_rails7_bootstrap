@@ -1,25 +1,10 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+'''
+rails new template_rails7_bootstrap -d postgresql -j esbuild --css bootstrap
+code .
+yarn run build:css
+gem 'simple_form'
+bundle install
+rails generate simple_form:install --bootstrap
+'''
 # template_rails7_bootstrap
