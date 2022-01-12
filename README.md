@@ -8,7 +8,7 @@ cd project_name
 code .
 ```
 
-###To test this:
+### To test this:
 ```
 rails g controller home
 ```
