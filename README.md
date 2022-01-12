@@ -11,6 +11,8 @@ code .
 ### To test this:
 ```
 rails g controller home
+rails db:create
+rails db:migrate
 ```
 ```
 # inside config/routes.rb  
